@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Assignment</title>
+    <link href="formassignment.css" ref="stylesheet">
+    <style>
+        h1 {
+            color: blue;
+        }
+    </style>
+</head>
+
+<body>
+    <center>
+        <a id="pseudo" href="#">Assignment</a>
+        <a id="element">BHAGWAN</a>
+        <h1>Html Form Baasics</h1>
+
+        <form>
+            <p>
+                <label style="color:rgb(3, 10, 10)" ; font-weight:bolder; for="name">Name=</label>
+                <input required />
+            </p>
+            <p>
+                <label id="phone_number">Phone Number=</label>
+                <input id="phone_number" name="phone_number" type="number" min="0" />
+            </p>
+            <p>
+                <label id="email">Email=</label>
+                <input id="email" type="email" />
+            </p>
+            <p>
+                <label id="password">Password=</label>
+                <input id="passwprd" type="password" />
+            </p>
+            <p>
+                <label id="date">Date</label>
+                <input id="date" type="date" />
+            </p>
+            <p>
+                <label id="time">Time</label>
+                <input id="time" type="time" />
+            </p>
+            <p>
+                <label for="url">Linkden</label>
+                <input id="url" type="url" />
+            </p>
+            <p>
+                <label for="color">Color</label>
+                <input id="color" type="color" />
+            </p>
+            <p>
+                <label for="file">File</label>
+                <input id="file" type="file" />
+            </p>
+            <p>
+                <label for="file">File</label>
+                <input id="file" type="file" />
+            </p>
+            <p>
+                <input id="female" type="radio" name="gender" />
+                <label for="female">Female</label>
+                <input id="male" type="radio" name="gender" />
+                <label for="male">Male</label>
+                <input id="other" type="radio" name="gender" />
+                <label for="other">Other</label>
+            </p>
+            <br /> <br />
+
+            <input id="html" type="checkbox" name="language" />
+            <label for="html">HTML</label>
+            <input id="css" type="checkbox" name="language" />
+            <label for="css">CSS</label>
+            <input id="JS" type="checkbox" name="language" />
+            <label for="js">JS</label>
+
+            <p>
+                <label for="about">About You</label>
+                <textarea id="about" rows="10" column="40"></textarea>
+            </p>
+            <p>
+                <select id="lang">
+                    <option value="">=> Select Best Programming Language</option>
+                    <option value="html">HTML</option>
+                    <option value="css">CSS</option>
+                    <option value="js">JS</option>
+                </select>
+            </p>
+            <p>
+                <select id="lang" multiple>
+                    <option value="">=> Select Best Programming Language</option>
+                    <option value="html">HTML</option>
+                    <option value="css">CSS</option>
+                    <option value="js">JS</option>
+                </select>
+            </p>
+        </form>
+    </center>
+</body>
+
+</html>
